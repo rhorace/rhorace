@@ -1,0 +1,22 @@
+bind "F1" "m4a1; ak47; primammo"
+bind "F2" "deagle; secammo"
+bind "F3" "awp; primammo"
+
+bind "F5" "vesthelm"
+bind "F6" "defuser"
+
+bind "UPARROW" "+forward"
+bind "DOWNARROW" "+back"
+bind "LEFTARROW" "+moveleft"
+bind "RIGHTARROW" "+moveright"
+
+bind "MWHEELDOWN" "slot2"
+bind "MWHEELUP" "slot1"
+bind "MOUSE1" "+attack"
+bind "MOUSE2" "lastinv"
+bind "MOUSE4" "+attack2"
+bind "MOUSE5" "+reload"
+
+
+
+

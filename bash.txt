@@ -1,0 +1,119 @@
+sudo apt install gcc
+sudo apt install vim
+sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install libcurl4-openssl-dev
+sudo apt install libcjson-dev
+sudo apt install wireshark
+
+sudo apt update
+sudo apt install python3-setuptools
+sudo apt install pipx
+pipx install norminette
+pipx ensurepath
+pipx completions
+
+echo "8dd7d5296a650fac7319bce665a6a53c  scph5500.bin" | md5sum -c
+md5sum scph5502.bin
+
+sudo apt update
+apt list --upgradable
+apt list --upgradable -a
+sudo apt upgrade
+sudo apt full-upgrade -y
+sudo apt autoremove -y
+sudo apt clean
+
+export FREE_USER=56447844
+export FREE_PASS='hugBHTQ0Rcg3L9'
+
+sudo apt install libgtk-4-dev
+pkg-config --modversion gtk4
+
+sudo apt-get update
+sudo apt-get install libssl-dev libgtk-4-dev build-essential
+
+sudo apt-get install -y libgtk-3-dev
+
+sudo apt update
+apt list --upgradable
+sudo apt upgrade
+apt search webserver
+apt show webcam
+
+ps aux
+ps -e
+
+shutdown now
+
+export -p
+
+openssl passwd -apr1
+openssl rand -base64 32
+openssl s_client -connect www.google.com:443
+echo | openssl s_client -connect www.google.com:443 | openssl x509 -noout -text
+
+sudo apt update
+sudo apt install git
+git --version
+git config --global user.name "Rodrigue HORACE"
+git config --global user.email "rodrigue.horace@gmail.com"
+git init
+
+ssh-keygen -t ed25519 -C "rodrigue.horace@gmail.com"
+
+sudo apt install ifconfig
+ifconfig
+
+sudo apt install net-tools
+nmap -Pn 192.168.1.32
+ip link show
+
+sudo apt install arp-scan
+sudo arp-scan --localnet
+
+sudo apt install terser
+terser script.js -o script4.txt
+
+chmod +x genymotion-3.9.0-linux_x64.run 
+./genymotion-3.9.0-linux_x64.run 
+./genymotion
+
+lsb_release -a
+hostnamectl
+lsb_release -cs
+uname -r
+uname -a
+lscpu
+free -h
+sudo lshw -short
+df -h
+lsblk
+ip a
+ip route
+hostname
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
